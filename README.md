@@ -96,7 +96,7 @@ npm start
 
 ```
 
-Server will run on: http://localhost:5000
+Server will run on: http://localhost:3100
 
 📡 API Documentation
 POST /api/schools
