@@ -1,5 +1,5 @@
-const pool = require('../db');
-const { haversineDistance } = require('../utils/distance');
+import pool from '../db.js';
+import {haversineDistance} from '../utils/distance.js';
 
 function isValidLatLng(lat, lon) {
   if (typeof lat !== 'number' || typeof lon !== 'number') return false;
@@ -9,7 +9,7 @@ function isValidLatLng(lat, lon) {
   return true;
 }
 
-exports.addSchool = async (req, res) => {
+export async function addSchool(req, res) {
   try {
     const { name, address, latitude, longitude } = req.body;
 
@@ -37,7 +37,7 @@ exports.addSchool = async (req, res) => {
   }
 };
 
-exports.listSchools = async (req, res) => {
+export async function listSchools(req, res) {
   try {
     const { lat, lon } = req.query;
     if (lat === undefined || lon === undefined) {

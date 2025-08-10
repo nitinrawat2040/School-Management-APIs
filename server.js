@@ -1,17 +1,16 @@
-const express = require('express');
-const cors = require('cors');
-const dotenv = require('dotenv');
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+import schoolRoutes from './routes/schoolRoutes.js';
 
 dotenv.config();
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3100;
 
 // middlewares
 app.use(cors());
-app.use(express.json());
+app.use(express.json());  
 
-// routes
-const schoolRoutes = require('./routes/schoolRoutes');
 app.use('/', schoolRoutes);
 
 // health
