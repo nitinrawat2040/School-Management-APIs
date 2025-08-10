@@ -150,7 +150,6 @@ This project is deployed using:
 Backend: Render
 Database: Railway MySQL
 
-<<<<<<< HEAD
 ## 👨‍💻 Author
 
 **Nitin Singh Rawat** <br>
@@ -159,10 +158,3 @@ You can connect with me on 👇
 - 📬 [Email](nitinrawat2040@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/nitin-singh-rawat-9594b228b)
 - 🧑‍💻 [GitHub](https://github.com/nitinrawat2040)
-=======
-👨‍💻 Author
-Nitin
-BCA Student | Full Stack Developer in Progress
-📧 Email: nitinrawat2040@gmail.com
-🔗 GitHub: https://github.com/nitinrawat2040/School-Management-APIs
->>>>>>> 1445798 (README added)

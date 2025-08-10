@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express';
+import * as controller from '../controllers/schoolController.js';
 const router = express.Router();
-const controller = require('../controllers/schoolController');
 
 // Add school
 router.post('/addSchool', controller.addSchool);
@@ -8,4 +8,4 @@ router.post('/addSchool', controller.addSchool);
 // List schools sorted by proximity
 router.get('/listSchools', controller.listSchools);
 
-module.exports = router;
+export default router;
