@@ -57,7 +57,7 @@ SCHOOL MANAGEMENT APIs
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/your-username/school-management-api.git
 cd school-management-api
 ```
