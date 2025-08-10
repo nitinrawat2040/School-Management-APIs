@@ -57,7 +57,7 @@ SCHOOL MANAGEMENT APIs
 
 ### 1. Clone the Repository
 
-```
+```bash
 git clone https://github.com/your-username/school-management-api.git
 cd school-management-api
 ```
@@ -74,7 +74,7 @@ npm install
 Create a MySQL database (Deploy on Railway).
 Create schools table:
 
-```bash
+```sql
 
 CREATE TABLE schools (
 id INT PRIMARY KEY AUTO_INCREMENT,
@@ -104,7 +104,7 @@ Add a new school.
 
 Request Body (JSON)
 
-```bash
+```json
 
 {
 "name": "St. Joseph's Convent School",
@@ -117,7 +117,7 @@ Request Body (JSON)
 
 Response
 
-```bash
+```json
 
 {
 "message": "School added successfully"
@@ -130,7 +130,7 @@ Get a list of schools sorted by proximity.
 
 Response
 
-```bash
+```json
 
 [
 {
