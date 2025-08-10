@@ -29,6 +29,7 @@ This project is designed for learning and demonstration purposes, showcasing RES
 ---
 
 ## 📂 Project Structure
+
 ```
 SCHOOL MANAGEMENT APIs
 │
@@ -51,6 +52,7 @@ SCHOOL MANAGEMENT APIs
 ├── README.md              # Project documentation
 └── server.js              # Main entry point to start the application
 ```
+
 ---
 
 ## ⚙️ Installation & Setup
@@ -105,24 +107,20 @@ Add a new school.
 Request Body (JSON)
 
 ```json
-
 {
-"name": "St. Joseph's Convent School",
-"address": "Faridabad",
-"latitude": 28.4089,
-"longitude": 77.3178
+  "name": "St. Joseph's Convent School",
+  "address": "Faridabad",
+  "latitude": 28.4089,
+  "longitude": 77.3178
 }
-
 ```
 
 Response
 
 ```json
-
 {
-"message": "School added successfully"
+  "message": "School added successfully"
 }
-
 ```
 
 GET /api/schools?latitude=28.4089&longitude=77.3178
@@ -131,18 +129,16 @@ Get a list of schools sorted by proximity.
 Response
 
 ```json
-
 [
-{
-"id": 1,
-"name": "St. Joseph's Convent School",
-"address": "Faridabad",
-"latitude": 28.4089,
-"longitude": 77.3178,
-"distance_km": 0
-}
+  {
+    "id": 1,
+    "name": "St. Joseph's Convent School",
+    "address": "Faridabad",
+    "latitude": 28.4089,
+    "longitude": 77.3178,
+    "distance_km": 0
+  }
 ]
-
 ```
 
 🧪 Postman Collection
@@ -156,8 +152,9 @@ Database: Railway MySQL
 
 ## 👨‍💻 Author
 
- **Nitin Singh Rawat** <br>
-  You can connect with me on 👇
+**Nitin Singh Rawat** <br>
+You can connect with me on 👇
+
 - 📬 [Email](nitinrawat2040@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/nitin-singh-rawat-9594b228b)
 - 🧑‍💻 [GitHub](https://github.com/nitinrawat2040)
