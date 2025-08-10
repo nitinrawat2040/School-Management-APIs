@@ -29,40 +29,40 @@ This project is designed for learning and demonstration purposes, showcasing RES
 ---
 
 ## 📂 Project Structure
-
+```
 SCHOOL MANAGEMENT APIs
 │
-├── controllers/ # Handles business logic for different features
-│ └── schoolController.js # Controller for school-related operations
+├── controllers/           # Handles business logic for different features
+│ └── schoolController.js  # Controller for school-related operations
 │
-├── node_modules/ # Installed dependencies (auto-generated)
+├── node_modules/          # Installed dependencies (auto-generated)
 │
-├── routes/ # Application route definitions
-│ └── schoolRoutes.js # Routes for school-related APIs
+├── routes/                # Application route definitions
+│ └── schoolRoutes.js      # Routes for school-related APIs
 │
-├── utils/ # Helper functions and reusable utilities
-│ └── distance.js # Utility to calculate distances
+├── utils/                 # Helper functions and reusable utilities
+│ └── distance.js          # Utility to calculate distances
 │
-├── .env # Environment variables (e.g., DB URI, API keys)
-├── .gitignore # Git ignore rules
-├── db.js # Database connection and setup
-├── package-lock.json # Dependency lock file (exact versions)
-├── package.json # Project metadata, scripts, dependencies
-├── README.md # Project documentation
-└── server.js # Main entry point to start the application
-
+├── .env                   # Environment variables (e.g., DB URI, API keys)
+├── .gitignore             # Git ignore rules
+├── db.js                  # Database connection and setup
+├── package-lock.json      # Dependency lock file (exact versions)
+├── package.json           # Project metadata, scripts, dependencies
+├── README.md              # Project documentation
+└── server.js              # Main entry point to start the application
+```
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/school-management-api.git
 cd school-management-api
 ```
 
-2️⃣ Install Dependencies
+2️. Install Dependencies
 
 ```bash
 
@@ -70,7 +70,7 @@ npm install
 
 ```
 
-3️⃣ Setup MySQL Database
+3️. Setup MySQL Database
 Create a MySQL database (Deploy on Railway).
 Create schools table:
 
@@ -88,7 +88,7 @@ longitude DECIMAL(9,6) NOT NULL
 
 Update your DB credentials in src/config/db.js.
 
-4️⃣ Run Locally
+4️. Run Locally
 
 ```bash
 
