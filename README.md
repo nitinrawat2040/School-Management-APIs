@@ -23,7 +23,7 @@ This project is designed for learning and demonstration purposes, showcasing RES
 
 - **Backend:** Node.js, Express.js
 - **Database:** MySQL
-- **Deployment:** Render (Backend), Railway (MySQL)
+- **Deployment:** Railways (Backend), Railway (MySQL)
 - **Tools:** Postman for API testing
 
 ---
@@ -147,7 +147,7 @@ A Postman collection is available in the repository for testing both APIs.
 🌐 Deployment
 This project is deployed using:
 
-Backend: Render
+Backend: Railways
 Database: Railway MySQL
 
 ## 👨‍💻 Author
